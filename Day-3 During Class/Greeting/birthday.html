@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+        .card {
+          margin-top: 200px;
+          width: 400px;
+          height: 300px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 10px;
+          transition: all 0.5s ease-in-out;
+        }
+
+        .card:hover {
+          transform: scale(1.1);
+          box-shadow: 5px 5px 5px 5px pink;
+          background-color: aqua;
+          color: black;
+          font-size: 40px;
+          font-weight: bold;
+          text-shadow: 2px 2px 4px pink;
+        }
+
+        .card:hover::after{
+            content:"Happy Birthday Quinnzel ... !";
+        }
+
+        .card:hover span{
+            display: none;
+        }
+
+        .greeting {
+          color: pink;
+          text-shadow: 1px 0px 1px aqua;
+          font-size: 20px;
+        }
+
+        body{
+          background: url('256198.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          object-fit: cover;
+        }
+
+      </style>
+    </head>
+
+    <body>
+      <center>
+        <div class="card">
+          <div class="greeting"><span><b>Hover Here ! <br>Quinn ... !</span></b></div>
+        </div>
+      </center>
+    </body>
+
+</html>
