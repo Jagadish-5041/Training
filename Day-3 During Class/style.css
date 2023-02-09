@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    font-family: 'Poppins' , sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('C:/Users/Dakshinamurthy/Desktop/cctvbg1.jpg') no-repeat center fixed;     
+    background-size: cover;
+}
+.wrapper{
+    margin-left: 750px;
+    background-image: linear-gradient(to right, #7EE8FA , #EEC0C6); 
+    border: 2px solid black;
+    width: 450px;
+    border-radius: 16px;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1) ,
+                0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+.form{
+    padding: 25px 30px;
+}
+
+.form header{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #3d05fa;
+}
+
+.form form{
+    margin: 20px 0;
+}
+
+.form form .name-details{
+    display: flex;
+}
+
+form .name-details .field:first-child{
+    margin-right: 10px;
+}
+
+form .name-details .field:last-child{
+    margin-left: 10px;
+}
+
+.form form .field{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+
+.form form .field input{
+    outline: none;
+}
+
+.form form .input input{
+    height: 40px;
+    width: 94%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.form form .image input{
+    font-size: 15px;
+}
+
+.form form .button input{
+    margin-top: 13px;
+    height: 45px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    background: black;
+    color: #f3f00c;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form form .field i{
+    position: absolute;
+    right: 15px;
+    color: gray;
+    top: 70%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.form form .field i.active::before{
+    color: #333;
+    content: "\f070";
+}
+
+.form .link{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+
+}
+
+.form .link a{
+    padding: 10px;
+    margin-top: 13px;
+    height: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    background: black;
+    color: #f3f00c;
+    border-radius: 10px;
+    cursor: pointer;
+}

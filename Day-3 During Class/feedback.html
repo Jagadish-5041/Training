@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTf-8">
+        <meta name = "viewport" content = "width = device-width , initial-scale = 1.0">
+        <meta heep-equiv = "X-UA-Compatible" content = "ie = edge">
+        <title>Feedback</title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+        <style type="text/css">
+                .nav-bar{
+                    background-image: linear-gradient(to right, #7EE8FA , #EEC0C6); 
+                    border: 2px solid black;
+                    border-radius: 10px;
+                    position: fixed; 
+                    left: 100px;
+                    top: 2px; 
+                    right: 940px;  
+                    height: 60px;  
+                    display: flex;  
+                    align-items: center;
+                    box-shadow: 0 0 25px 0 black;  
+                }  
+                .nav-bar *{  
+                    display: inline;  
+                }    
+                .nav-bar li a{  
+                    color: black;
+                    text-decoration: none;
+                    font-size: 20px;  
+                }
+                .logo-img{
+                    float: left;
+                    padding: 20px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+                .company-name{
+                    color: antiquewhite;
+                    font-family:'Times New Roman', Times, serif;
+                    font-style: italic;
+                    font-size: 30px;
+                    margin-left: 10px;
+                    margin-right: 30px;
+                    background-color: black;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                    padding: 5px;
+                }
+        </style>
+        <script>
+            function show_response(){
+                alert ("Your FeedBack Has Been Taken into Account ! ... ");
+            }
+        </script>
+    </head>
+    <body>
+        <header class = "nav-bar">
+            <img class="logo-img" src="cctv.jpg" width="50px" height="50px" ALT="logo">
+            <nav>
+                <ul>
+                    <li class="company-name">
+                        <b>FeedBack</b>
+                    </li>
+                </ul>  
+            </nav>
+        </header>
+        <div class = "wrapper">
+            <section class = "form signup">
+                <header>FeedBack Form</header>
+                <form action=dashboard.html>
+                    <div class = "name-details">
+                    <div class = "field input">
+                        <label> Enter Your FeedBack </label>
+                        <textarea class="text-area" name="feedback-text-area" rows="10" cols="55"></textarea>
+                        <div class = "field button">
+                            <input onclick="show_response()" action="dashboard.html" type="submit" value="Submit FeedBack">
+                        </div>
+                        <div class="link"><a href="dashboard.html">Back 2 DashBoard</a></div>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </body>
+</html>
