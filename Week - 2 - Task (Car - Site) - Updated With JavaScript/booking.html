@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car Booking Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+    <style>
+
+        body{
+            transition: 3s;
+            background-image: url("g1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .container {
+            transition: 3s;
+            margin-top: 10px;
+            margin-left: 450px;
+            backdrop-filter: blur(70px);
+            color: aqua;
+            max-width: 400px;
+            max-height: 650px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 20px;
+        }
+
+        input, select {
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin-left: 10px;
+        }
+
+        button {
+            width: 170px;
+            padding: 10px;
+            background-color: white;
+            color: orangered;
+            border-radius: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body id="bodytag">
+    <div id="container" class="container">
+        <h1>Book Tuning 4 ur Car</h1>
+        <form>
+            <label for="name"><b>Name:</b></label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email"><b>Email:</b></label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone"><b>Phone Number:</b></label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="car"><b>Car Model:</b></label>
+            <select id="car" name="car" required>
+                <option value="">-- Select a car --</option>
+                <option value="sedan">Sedan</option>
+                <option value="suv">SUV</option>
+                <option value="hatchback">Hatchback</option>
+            </select>
+
+            <label for="pickup-date"><b>Pickup Date:</b></label>
+            <input type="date" id="pickup-date" name="pickupDate" required>
+
+            <label for="return-date"><b>Return Date:</b></label>
+            <input type="date" id="return-date" name="returnDate" required>
+
+            <center>
+                <button type="submit"><b>Book 4 Tuning</b></button>
+            </center>
+        </form>
+        <script src="bg.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/310a56fbe6.js"></script>
+        <title>Car</title>
+
+        <style>
+
+            html{
+                scroll-behavior: smooth;
+            }
+
+            *{
+                font-family:'Courier New', Courier, monospace;
+            }
+
+            body{
+                background-color: black;
+            }
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+
+            .nav{
+                position: fixed;
+            }
+
+            .menu{
+                list-style-type: none;
+                align-items: center;
+                justify-content: space-around;
+                color: black;
+                background-color: transparent;
+                width: 700px;
+                float: left;
+            }
+
+            .item:hover{
+                transition: 0.5s;
+                transform: scale(1.03);
+                background-color: orangered;
+                border-radius: 8px;
+                padding: 3px;
+            }
+
+            .right{
+                color: blanchedalmond;
+            }
+
+            .right p{
+                margin: 5px;
+                padding: 5px;
+            }
+            
+            ul{
+                list-style-type: none;
+                display: flex;
+                justify-content: space-around;
+            }
+
+            .first-div .right{
+                margin-top: 8px;
+                margin-left: 250px;
+                border-radius: 10px;
+                cursor: pointer;
+                background-color: orangered;
+                align-items: center;
+                justify-content: center;
+                float: right;
+            }
+
+            .orange-txt{
+                cursor: pointer;
+                color: orangered;
+            }
+
+            
+            .first{
+                position: relative;
+                background-image: url("firstbg1.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 640px;
+            }
+
+            .bg p{
+                color: white;
+            }
+
+            #secondtext{
+                padding-top:500px;
+                padding-left: 40px;
+                padding-right: 1070px;
+            }
+
+            #bottomtextfirst{
+                color: white;
+                align-items: center;
+                padding: 10px;
+            }
+
+            #bottomtextfirst:hover{
+                transform: scale(1.04);
+                transition: 0.5s;
+                background-blend-mode: color;
+                background-color: orangered;
+                border-radius: 10px;
+                color: white;
+            }
+
+            .expbut{
+                position: relative;
+                cursor: pointer;
+                transform: scale(1.05);
+                border-radius: 10px;
+                background-color: orangered;
+                color: white;
+                padding: 10px;
+                margin-top: -80px;
+                margin-right: 590px;
+                float: right;
+            }
+
+            .expbut i{
+                padding-right: 10px;
+            }
+
+            .expbut:hover{
+                transform: scale(1.2);
+            }
+
+            .second .secondleft{
+                position: relative;
+                float: left;
+                margin-top: 100px;
+                margin-left: 50px;
+                width: 350px;
+            }
+
+            .second .secondright{
+                float: right;
+                background-image: url("secondbg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 600px;
+                width: 930px;
+                margin-right: px;
+            }
+
+            #lefttext{
+                color: white;
+            }
+
+            .hp , .bottomleft{
+                font-size: 12px;
+                float: left;
+                width: 140px;
+            }
+
+            .fuel , .bottomright{
+                font-size: 12px;
+                float: right;
+                width: 140px;
+                padding-right: 40px;
+            }
+
+            .leftjpg{
+                height: 40px;
+            }
+
+            .leftjpg:hover{
+                transition: 0.5s;
+                transform: scale(1.5);
+            }
+
+            .thirdleft{
+                float: left;
+                background-image: url("thirdbg.jpg");
+                height: 600px;
+                width: 580px;
+            }
+
+            .thirdright{
+                padding: 10px;
+                float: right;
+                margin-top: -450px;
+                margin-left: 500px;
+                margin-right: 200px;
+                width: 520px;
+            }
+
+            #righttext{
+                color: white;
+            }
+
+            hr{
+                margin-left: 0px;
+                width: 20px;
+                border: 3px solid orangered;
+            }
+
+            footer{
+                margin-top: 1220px;
+                padding: 10px;
+                height: 50px;
+            }
+
+            .social-media{
+                cursor: pointer;
+                align-items: center;
+                color: white;
+            }
+ 
+            .insta:hover , .fb:hover , .twitter:hover , .linkedin:hover , .yt:hover {
+                transform: scale(1.2);
+                transition: 0.5s;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="first" class="first">
+            <div class="first-div">
+
+                <div class="nav">
+                    <div class="menu">
+                        <ul>
+                            <b><li class="orange-txt">Best Tuning</li></b>
+                            <b><li class="item"><a href="#first">Tuning</a></li></b>
+                            <b><li class="item"><a href="#second">Why Tuning</a></li></b>
+                            <b><li class="item"><a href="#thirdleft">Gains</a></li></b>
+                            <b><li class="item"><a href="#social-media">Accounts</a></li></b>
+                            <b><li class="item"><a href="booking.html">Booking</a></li></b>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <p><i class="fa-solid fa-car"></i> Book An Appointment</p>
+                    </div>
+                </div>
+
+                <div id="secondtext">
+                    <p id="bottomtextfirst"><b>
+                        TUNING PERFECTION
+                        <br><br>
+                        Tuning is an upgrande
+                        <br>
+                        that unlocks hidden
+                        <br>
+                        potential of your car
+                    </b></p>
+                </div>
+                <div class="expbut"><a href="#second"> <i class="fa-solid fa-arrow-down"></i> Explore</a></div>
+            </div>
+        </div>
+
+        <div id="second" class="second">
+            <div class="secondleft">
+                <h5 id="lefttext">WHY DO YOU WANT IT ?</h5>
+                <h2 id="lefttext">What is Tuning and</h2>
+                <h2 id="lefttext">Why do You Want It</h2>
+                <p id="lefttext">
+                    Tuning is an upgrade that the software in the vehicles computer.
+                    Custom software is installed that changes many parameters that control thw way the engine operates.
+                    With proper tuning , you can increase both power and fuel economy.
+                </p>
+                <div class="hpandfuel">
+                    <div class="hp">
+                        <img class="leftjpg" src="hp.jpg">
+                        <p id="lefttext">A comprehensive tool for high horsepower builds.</p>
+                    </div>
+
+                    <div class="fuel">
+                        <img class="leftjpg" src="fuel.jpg">
+                        <p id="lefttext">With proper tuning you can increase fuel economy.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="secondright">
+
+            </div>
+        </div>
+
+        <div id="third" class="third">
+            
+
+            <div id="thirdleft" class="thirdleft">
+
+            </div>
+
+            <div class="thirdright">
+                <h4 id="righttext">Gains</h4>
+                <h2 id="righttext">What can I Expect <br> from Tuning?</h2>
+                <p id="righttext"><b>
+                    What can I Expect from Training ? <br>
+                    Tuning is an upgrade that the software in the vehicles computer
+                    Custom software is installed that changes many parameters that 
+                    control the way the engine operates.
+                    With proper tuning , you can
+                    increase both power and fuel economy.
+                </b></p>
+                <div class="bottomrighttext">
+                    <div class="bottomleft">
+                        <h2 id="lefttext">20 - 30 hp</h2>
+                        <hr>
+                        <p id="lefttext">roughly increase from a stage 1 tune</p>
+                    </div>
+
+                    <div class="bottomright">
+                        <h2 id="lefttext">35 - 50 hp</h2>
+                        <hr>
+                        <p id="lefttext">roughly increase from a stage 2 tune</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <ul id="social-media" class="social-media">
+                <li class="brand-social-media">Best Tuning</li>
+                <b><li class="orange-txt">&#169 Copyright 2023. All Rights Reserved</li></b>
+                <li><img id="insta" class="insta" src="insta.jpg" width="35px" height="35px" alt="instagram"></li>
+                <li><img id="fb" class="fb" src="fb.jpg" width="30px" height="30px" alt="facebook"></li>
+                <li><img id="twitter" class="twitter" src="twitter.jpg" width="30px" height="30px" alt="twitter"></li>
+                <li><img id="linkedin" class="linkedin" src="linkedin.jpg" width="30px" height="30px" alt="linkedin"></li>
+                <li><img id="yt" class="yt" src="yt.jpg" width="40px" height="40px" alt="youtube"></li>
+            </ul>
+        </footer>
+        <script src="hoverfunction.js"></script>
+    </body>
+</html>
