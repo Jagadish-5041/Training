@@ -1,0 +1,34 @@
+.child{
+    border-radius: 5%;
+    
+      width: 400px;
+      height: 40vh;
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+      display: inline;
+      color:rgb(12, 245, 12);
+      border: 2px solid rgb(12, 245, 12);
+    
+}
+.parent{
+    border-color: rgb(12, 245, 12);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+.btn{
+    margin-top: 7%;
+    height: 40px;
+    width: 80px;
+   
+    background-color: rgb(12, 245, 12);
+    color:#fff;
+    border-color:#fff ;
+}
+.btn:hover {
+    background-color: #fff;
+    color: rgb(12, 245, 12);
+    border-color: rgb(12, 245, 12);
+}
